@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="t d">
+  <title id="t">Cómo se actualiza AgroPlane Desktop</title>
+  <desc id="d">Sale una versión nueva, se publica en este repositorio, AgroPlane la descarga sola y verifica su firma, y al reiniciar se instala en segundos sin tocar los proyectos ni el motor de procesamiento.</desc>
+  <rect width="1280" height="380" rx="18" fill="#070707"/>
+  <rect x=".5" y=".5" width="1279" height="379" rx="17.5" fill="none" stroke="#F5F5F5" stroke-opacity=".08"/>
+
+  <!-- Línea de tiempo -->
+  <path d="M175 64H1105" stroke="#F5F5F5" stroke-opacity=".1" stroke-width="2"/>
+  <path d="M175 64H1105" stroke="#5E9644" stroke-width="2" stroke-dasharray="4 8"/>
+  <g fill="#070707" stroke="#5E9644" stroke-width="2">
+    <circle cx="175" cy="64" r="9"/><circle cx="485" cy="64" r="9"/><circle cx="795" cy="64" r="9"/><circle cx="1105" cy="64" r="9"/>
+  </g>
+  <g fill="#9BC27A"><circle cx="175" cy="64" r="4"/><circle cx="485" cy="64" r="4"/><circle cx="795" cy="64" r="4"/><circle cx="1105" cy="64" r="4"/></g>
+
+  <!-- Tarjetas -->
+  <g fill="#0E0F0C" stroke="#F5F5F5" stroke-opacity=".09">
+    <rect x="40" y="92" width="270" height="250" rx="14"/>
+    <rect x="350" y="92" width="270" height="250" rx="14"/>
+    <rect x="660" y="92" width="270" height="250" rx="14"/>
+    <rect x="970" y="92" width="270" height="250" rx="14"/>
+  </g>
+
+  <!-- 1 · Versión nueva -->
+  <g transform="translate(68 120)">
+    <path d="M0 14a8 8 0 0 1 8-8h122l26 30-26 30H8a8 8 0 0 1-8-8Z" fill="#1B2016" stroke="#5E9644" stroke-opacity=".7"/>
+    <circle cx="138" cy="36" r="4" fill="none" stroke="#9BC27A" stroke-width="1.5"/>
+    <text x="14" y="41" fill="#D6D6D6" font-family="'JetBrains Mono',Menlo,Consolas,monospace" font-size="13">v0.1.0-beta.10</text>
+    <g fill="#9BC27A"><path d="M184 18l3 7 7 3-7 3-3 7-3-7-7-3 7-3Z"/><path d="M204 46l2 4 4 2-4 2-2 4-2-4-4-2 4-2Z" fill-opacity=".6"/></g>
+  </g>
+
+  <!-- 2 · Se publica acá -->
+  <g transform="translate(378 112)" font-family="'JetBrains Mono',Menlo,Consolas,monospace" font-size="11">
+    <rect x="0" y="0" width="214" height="24" rx="6" fill="#1B2016" stroke="#5E9644" stroke-opacity=".7"/>
+    <rect x="8" y="7" width="10" height="10" rx="2" fill="#5E9644"/>
+    <text x="26" y="16" fill="#D6D6D6">AgroPlane-Installer.exe</text>
+    <rect x="0" y="30" width="214" height="24" rx="6" fill="#141612" stroke="#F5F5F5" stroke-opacity=".12"/>
+    <path d="M10 42l3 3 6-7" fill="none" stroke="#9BC27A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="26" y="46" fill="#9A9A9A">.exe.sig · firma</text>
+    <rect x="0" y="60" width="214" height="24" rx="6" fill="#141612" stroke="#F5F5F5" stroke-opacity=".12"/>
+    <text x="8" y="76" fill="#9BC27A">{}</text>
+    <text x="26" y="76" fill="#9A9A9A">latest.json</text>
+  </g>
+
+  <!-- 3 · La baja sola: ventana de AgroPlane con el aviso -->
+  <g transform="translate(688 112)">
+    <rect width="214" height="96" rx="8" fill="#141612" stroke="#F5F5F5" stroke-opacity=".12"/>
+    <path d="M0 18h214" stroke="#F5F5F5" stroke-opacity=".1"/>
+    <g fill="#F5F5F5" fill-opacity=".25"><circle cx="11" cy="9" r="2.5"/><circle cx="20" cy="9" r="2.5"/><circle cx="29" cy="9" r="2.5"/></g>
+    <rect x="10" y="28" width="60" height="58" rx="4" fill="#0D120A"/>
+    <path d="M14 40h52M14 52h52M14 64h52M14 76h52" stroke="#4D7C38" stroke-width="2.5" stroke-opacity=".5"/>
+    <g transform="translate(82 30)">
+      <rect width="122" height="56" rx="6" fill="#0E0F0C" stroke="#F5F5F5" stroke-opacity=".18"/>
+      <text x="10" y="17" fill="#9BC27A" font-family="'JetBrains Mono',Menlo,Consolas,monospace" font-size="8.5" letter-spacing=".6">ACTUALIZACIÓN LISTA</text>
+      <rect x="10" y="24" width="64" height="5" rx="2.5" fill="#F5F5F5" fill-opacity=".45"/>
+      <rect x="10" y="36" width="66" height="13" rx="3" fill="#5E9644"/>
+      <text x="43" y="45.5" fill="#FFF" font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif" font-size="7.5" font-weight="600" text-anchor="middle">Reiniciar ahora</text>
+      <rect x="82" y="36" width="30" height="13" rx="3" fill="none" stroke="#F5F5F5" stroke-opacity=".2"/>
+    </g>
+  </g>
+
+  <!-- 4 · Reiniciar: flecha circular con tilde -->
+  <g transform="translate(1105 160)">
+    <circle r="44" fill="#1B2016" stroke="#5E9644" stroke-opacity=".5"/>
+    <path d="M-24 -6a25 25 0 0 1 45-10" fill="none" stroke="#9BC27A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M22 -26 21 -15 10 -17" fill="none" stroke="#9BC27A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 6a25 25 0 0 1-45 10" fill="none" stroke="#9BC27A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-22 26 -21 15 -10 17" fill="none" stroke="#9BC27A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-9 1l6 6 12-13" fill="none" stroke="#F5F5F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Textos -->
+  <g font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="68" y="248" fill="#F5F5F5" font-size="19" font-weight="600" letter-spacing="-.3">Sale una versión nueva</text>
+    <text x="68" y="274" fill="#9A9A9A" font-size="13.5">Con sus novedades escritas en la</text>
+    <text x="68" y="294" fill="#9A9A9A" font-size="13.5">página de cada release.</text>
+
+    <text x="378" y="248" fill="#F5F5F5" font-size="19" font-weight="600" letter-spacing="-.3">Se publica acá</text>
+    <text x="378" y="274" fill="#9A9A9A" font-size="13.5">El instalador, su firma y el aviso</text>
+    <text x="378" y="294" fill="#9A9A9A" font-size="13.5">que consulta la app.</text>
+
+    <text x="688" y="248" fill="#F5F5F5" font-size="19" font-weight="600" letter-spacing="-.3">AgroPlane la baja solo</text>
+    <text x="688" y="274" fill="#9A9A9A" font-size="13.5">En segundo plano, mientras trabajás.</text>
+    <text x="688" y="294" fill="#9A9A9A" font-size="13.5">Antes de usarla verifica la firma.</text>
+
+    <text x="998" y="248" fill="#F5F5F5" font-size="19" font-weight="600" letter-spacing="-.3">Reiniciás y listo</text>
+    <text x="998" y="274" fill="#9A9A9A" font-size="13.5">Se instala en segundos. Proyectos y</text>
+    <text x="998" y="294" fill="#9A9A9A" font-size="13.5">motor quedan como estaban.</text>
+  </g>
+  <g font-family="'JetBrains Mono',Menlo,Consolas,monospace" font-size="11" fill="#5E9644" letter-spacing="1">
+    <text x="68" y="322">01</text><text x="378" y="322">02</text><text x="688" y="322">03</text><text x="998" y="322">04</text>
+  </g>
+</svg>

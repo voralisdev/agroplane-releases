@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="t d">
+  <title id="t">AgroPlane Desktop — descargas oficiales</title>
+  <desc id="d">Un dron recorre un lote sembrado en pasadas paralelas mientras toma fotos.</desc>
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#070707"/>
+      <stop offset=".55" stop-color="#070707" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#F5F5F5" fill-opacity=".06"/>
+    </pattern>
+    <clipPath id="field">
+      <path d="M740 265 990 150 1240 265 990 380Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1280" height="440" rx="18" fill="#070707"/>
+  <rect x="560" width="720" height="440" fill="url(#dots)"/>
+  <rect width="1280" height="440" rx="18" fill="url(#fade)"/>
+  <rect x=".5" y=".5" width="1279" height="439" rx="17.5" fill="none" stroke="#F5F5F5" stroke-opacity=".08"/>
+
+  <!-- Lote: dos parcelas y surcos -->
+  <path d="M752 270 990 160 1228 270 990 380Z" fill="#000" fill-opacity=".5" transform="translate(0 14)"/>
+  <path d="M740 265 990 150 1240 265 990 380Z" fill="#0D120A" stroke="#2A3A20"/>
+  <g clip-path="url(#field)">
+    <path d="M990 150 1240 265 1115 322.5 865 207.5Z" fill="#111A0C"/>
+    <g stroke="#4D7C38" stroke-width="3" stroke-linecap="round">
+      <path d="M752.5 259.25 1002.5 374.25" stroke-opacity=".55"/>
+      <path d="M771.25 250.6 1021.25 365.6" stroke-opacity=".8"/>
+      <path d="M790 242 1040 357" stroke-opacity=".55"/>
+      <path d="M808.75 233.4 1058.75 348.4" stroke-opacity=".8"/>
+      <path d="M827.5 224.75 1077.5 339.75" stroke-opacity=".55"/>
+      <path d="M846.25 216.1 1096.25 331.1" stroke-opacity=".8"/>
+      <path d="M865 207.5 1115 322.5" stroke-opacity=".55"/>
+    </g>
+    <g stroke="#5E9644" stroke-width="3" stroke-linecap="round">
+      <path d="M883.75 198.9 1133.75 313.9" stroke-opacity=".9"/>
+      <path d="M902.5 190.25 1152.5 305.25" stroke-opacity=".65"/>
+      <path d="M921.25 181.6 1171.25 296.6" stroke-opacity=".9"/>
+      <path d="M940 173 1190 288" stroke-opacity=".65"/>
+      <path d="M958.75 164.4 1208.75 279.4" stroke-opacity=".9"/>
+      <path d="M977.5 155.75 1227.5 270.75" stroke-opacity=".65"/>
+    </g>
+  </g>
+
+  <!-- Puntos de control en las esquinas del lote -->
+  <g fill="none" stroke="#F5F5F5" stroke-opacity=".55" stroke-width="1.5">
+    <path d="M780 265h10M785 260v10"/>
+    <path d="M1190 265h10M1195 260v10"/>
+    <path d="M985 350h10M990 345v10"/>
+  </g>
+
+  <!-- Plan de vuelo: hecho (verde) y pendiente (punteado) -->
+  <path d="M777.5 177.75 1027.5 292.75 1077.5 269.75 827.5 154.75 877.5 131.75 1027.5 200.75" fill="none" stroke="#9BC27A" stroke-width="2" stroke-linejoin="round" stroke-opacity=".9"/>
+  <path d="M1027.5 200.75 1127.5 246.75 1177.5 223.75 927.5 108.75" fill="none" stroke="#F5F5F5" stroke-opacity=".35" stroke-width="2" stroke-dasharray="6 7" stroke-linejoin="round"/>
+  <circle cx="777.5" cy="177.75" r="4" fill="#9BC27A"/>
+  <circle cx="927.5" cy="108.75" r="4" fill="none" stroke="#F5F5F5" stroke-opacity=".5" stroke-width="1.5"/>
+
+  <!-- Fotos ya tomadas a lo largo de la pasada -->
+  <g fill="#9BC27A" fill-opacity=".9">
+    <circle cx="840" cy="206.5" r="2.5"/><circle cx="902.5" cy="235.25" r="2.5"/><circle cx="965" cy="264" r="2.5"/>
+    <circle cx="1015" cy="241" r="2.5"/><circle cx="952.5" cy="212.25" r="2.5"/><circle cx="890" cy="183.5" r="2.5"/>
+    <circle cx="940" cy="160.5" r="2.5"/><circle cx="990" cy="183.5" r="2.5"/>
+  </g>
+
+  <!-- Huella de la cámara sobre el lote -->
+  <path d="M982 270.75 1027.5 249.75 1073 270.75 1027.5 291.75Z" fill="#5E9644" fill-opacity=".22" stroke="#9BC27A" stroke-opacity=".8"/>
+  <g stroke="#9BC27A" stroke-opacity=".3">
+    <path d="M1027.5 206 982 270.75M1027.5 206 1073 270.75M1027.5 206 1027.5 291.75"/>
+  </g>
+  <ellipse cx="1027.5" cy="270.75" rx="22" ry="8" fill="#000" fill-opacity=".45"/>
+
+  <!-- Dron -->
+  <g transform="translate(1027.5 200.75)">
+    <g stroke="#CFCFCF" stroke-width="3.5" stroke-linecap="round">
+      <path d="M-26 -12 26 12M26 -12 -26 12"/>
+    </g>
+    <g fill="#F5F5F5" fill-opacity=".1" stroke="#F5F5F5" stroke-opacity=".8" stroke-width="1.5">
+      <ellipse cx="-26" cy="-12" rx="15" ry="5.5"/><ellipse cx="26" cy="-12" rx="15" ry="5.5"/>
+      <ellipse cx="-26" cy="12" rx="15" ry="5.5"/><ellipse cx="26" cy="12" rx="15" ry="5.5"/>
+    </g>
+    <rect x="-13" y="-8" width="26" height="16" rx="6" fill="#F5F5F5"/>
+    <rect x="-6" y="5" width="12" height="7" rx="2" fill="#2B2B2B"/>
+    <circle cx="8" cy="-3" r="2" fill="#5E9644"/>
+  </g>
+
+  <!-- Wordmark AgroPlane Desktop (mismo trazo que el logo de la app) -->
+  <g transform="translate(64 92) scale(1.6)" font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif" font-weight="600">
+    <text x="0" y="40" fill="#F5F5F5" font-size="40" letter-spacing="-1.8">AgroPlane</text>
+    <g transform="translate(111 51)">
+      <path d="M0 17 12 0h9.5L9.5 17Z" fill="#4D7C38"/>
+      <path d="M16 17 28 0h8.5l-12 17Z" fill="#5E9644"/>
+      <path d="M31 17 43 0h9.5l-12 17Z" fill="#4D7C38"/>
+      <text x="64" y="17" fill="#5E9644" font-size="20" letter-spacing="-.5">Desktop</text>
+    </g>
+  </g>
+
+  <g font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="66" y="262" fill="#F5F5F5" font-size="26" font-weight="600" letter-spacing="-.4">Del vuelo al mapa, en tu PC.</text>
+    <text x="66" y="296" fill="#9A9A9A" font-size="17">Ortomosaico, modelos de elevación, nube de puntos y 3D,</text>
+    <text x="66" y="320" fill="#9A9A9A" font-size="17">procesados en tu propia computadora.</text>
+  </g>
+
+  <g font-family="'JetBrains Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing=".6">
+    <rect x="66" y="356" width="150" height="30" rx="15" fill="#F5F5F5" fill-opacity=".04" stroke="#F5F5F5" stroke-opacity=".12"/>
+    <text x="141" y="375.5" fill="#D6D6D6" text-anchor="middle">WINDOWS 10 · 11</text>
+    <rect x="226" y="356" width="200" height="30" rx="15" fill="#F5F5F5" fill-opacity=".04" stroke="#F5F5F5" stroke-opacity=".12"/>
+    <circle cx="246" cy="371" r="4" fill="#5E9644"/>
+    <text x="336" y="375.5" fill="#D6D6D6" text-anchor="middle">SE ACTUALIZA SOLO</text>
+    <rect x="436" y="356" width="168" height="30" rx="15" fill="#F5F5F5" fill-opacity=".04" stroke="#F5F5F5" stroke-opacity=".12"/>
+    <text x="520" y="375.5" fill="#D6D6D6" text-anchor="middle">FIRMA VERIFICADA</text>
+  </g>
+</svg>

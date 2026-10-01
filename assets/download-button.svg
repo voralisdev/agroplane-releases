@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="72" viewBox="0 0 380 72" role="img" aria-labelledby="t">
+  <title id="t">Descargar AgroPlane Desktop para Windows</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#679F4C"/>
+      <stop offset="1" stop-color="#4D7C38"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="3" width="378" height="68" rx="12" fill="#000" fill-opacity=".35"/>
+  <rect x="1" y="1" width="378" height="66" rx="12" fill="url(#g)"/>
+  <rect x="1.5" y="1.5" width="377" height="65" rx="11.5" fill="none" stroke="#FFF" stroke-opacity=".18"/>
+  <!-- Flecha hacia una bandeja -->
+  <g fill="none" stroke="#FFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 20v20M36 33l8 8 8-8"/>
+    <path d="M32 40v5a3 3 0 0 0 3 3h18a3 3 0 0 0 3-3v-5"/>
+  </g>
+  <g font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="76" y="31" fill="#FFF" font-size="19" font-weight="600" letter-spacing="-.2">Descargar para Windows</text>
+    <text x="76" y="51" fill="#FFF" fill-opacity=".75" font-family="'JetBrains Mono',Menlo,Consolas,monospace" font-size="12">AgroPlane-Installer.exe · última versión</text>
+  </g>
+</svg>
