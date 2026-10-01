@@ -52,8 +52,9 @@ Este repositorio es el lugar oficial de descarga: acá se publica cada versión 
   <img src="assets/updates.svg" width="100%" alt="Cómo llega una versión nueva a tu AgroPlane">
 </p>
 
-AgroPlane revisa este repositorio cada 12 horas. Cuando hay una versión nueva la descarga en segundo plano, comprueba que esté firmada por AgroPlane y te avisa cuando está lista. Al tocar **Reiniciar ahora** se instala en unos segundos.
+AgroPlane revisa este repositorio cada 12 horas. Cuando hay una versión nueva baja solo la aplicación en segundo plano, comprueba que esté firmada por AgroPlane y te avisa cuando está lista. Al tocar **Reiniciar ahora** se actualiza sola en unos segundos, sin instalador y sin pedir permisos.
 
+- **Si algo sale mal, vuelve atrás sola.** Si la versión nueva no llega a abrir, AgroPlane vuelve a la anterior y te avisa. No perdés nada.
 - **No corta tu trabajo.** Si hay un procesamiento o una publicación en curso, o cambios sin guardar, te lo avisa antes de reiniciar.
 - **No vuelve a bajar el motor.** Solo se reemplaza la aplicación; OpenDroneMap y tus proyectos quedan como estaban.
 - **Sin internet no pasa nada.** La app sigue funcionando y busca la actualización la próxima vez.
@@ -67,10 +68,11 @@ Cada [release](https://github.com/voralisdev/agroplane-releases/releases) incluy
 
 | Archivo | Para qué sirve |
 | :-- | :-- |
-| `AgroPlane-Installer-X.Y.Z.exe` | El instalador de esa versión. Es el que conviene guardar si necesitás una versión puntual. |
+| `AgroPlane-Installer-X.Y.Z.exe` | El instalador de esa versión, para instalar desde cero. Es el que conviene guardar si necesitás una versión puntual. |
 | `AgroPlane-Installer.exe` | El mismo instalador con nombre fijo: el botón de descarga siempre apunta a la última versión. |
-| `AgroPlane-Installer-X.Y.Z.exe.sig` | Firma del instalador. La app la verifica antes de instalar una actualización; si no coincide, la rechaza. |
-| `latest.json` | El aviso que consulta la app para saber si hay una versión nueva. |
+| `agroplane-desktop-X.Y.Z.exe` | La aplicación sola. Es lo que baja AgroPlane para actualizarse; no hace falta descargarlo a mano. |
+| `*.exe.sig` | Las firmas. La app las verifica antes de instalar; si no coinciden, rechaza la actualización. |
+| `latest.json` · `latest-installer.json` | Los avisos que consulta la app para saber si hay una versión nueva y cómo instalarla. |
 
 <br>
 

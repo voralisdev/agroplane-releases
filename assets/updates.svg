@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="t d">
   <title id="t">Cómo se actualiza AgroPlane Desktop</title>
-  <desc id="d">Sale una versión nueva, se publica en este repositorio, AgroPlane la descarga sola y verifica su firma, y al reiniciar se instala en segundos sin tocar los proyectos ni el motor de procesamiento.</desc>
+  <desc id="d">Sale una versión nueva, se publica en este repositorio, AgroPlane baja la aplicación nueva sola y verifica su firma, y al reiniciar se reemplaza a sí misma en segundos, sin instalador; si la versión nueva no abre, vuelve a la anterior.</desc>
   <rect width="1280" height="380" rx="18" fill="#070707"/>
   <rect x=".5" y=".5" width="1279" height="379" rx="17.5" fill="none" stroke="#F5F5F5" stroke-opacity=".08"/>
 
@@ -32,7 +32,7 @@
   <g transform="translate(378 112)" font-family="'JetBrains Mono',Menlo,Consolas,monospace" font-size="11">
     <rect x="0" y="0" width="214" height="24" rx="6" fill="#1B2016" stroke="#5E9644" stroke-opacity=".7"/>
     <rect x="8" y="7" width="10" height="10" rx="2" fill="#5E9644"/>
-    <text x="26" y="16" fill="#D6D6D6">AgroPlane-Installer.exe</text>
+    <text x="26" y="16" fill="#D6D6D6">agroplane-desktop.exe</text>
     <rect x="0" y="30" width="214" height="24" rx="6" fill="#141612" stroke="#F5F5F5" stroke-opacity=".12"/>
     <path d="M10 42l3 3 6-7" fill="none" stroke="#9BC27A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
     <text x="26" y="46" fill="#9A9A9A">.exe.sig · firma</text>
@@ -75,7 +75,7 @@
     <text x="68" y="294" fill="#9A9A9A" font-size="13.5">página de cada release.</text>
 
     <text x="378" y="248" fill="#F5F5F5" font-size="19" font-weight="600" letter-spacing="-.3">Se publica acá</text>
-    <text x="378" y="274" fill="#9A9A9A" font-size="13.5">El instalador, su firma y el aviso</text>
+    <text x="378" y="274" fill="#9A9A9A" font-size="13.5">La app nueva, su firma y el aviso</text>
     <text x="378" y="294" fill="#9A9A9A" font-size="13.5">que consulta la app.</text>
 
     <text x="688" y="248" fill="#F5F5F5" font-size="19" font-weight="600" letter-spacing="-.3">AgroPlane la baja solo</text>
@@ -83,8 +83,8 @@
     <text x="688" y="294" fill="#9A9A9A" font-size="13.5">Antes de usarla verifica la firma.</text>
 
     <text x="998" y="248" fill="#F5F5F5" font-size="19" font-weight="600" letter-spacing="-.3">Reiniciás y listo</text>
-    <text x="998" y="274" fill="#9A9A9A" font-size="13.5">Se instala en segundos. Proyectos y</text>
-    <text x="998" y="294" fill="#9A9A9A" font-size="13.5">motor quedan como estaban.</text>
+    <text x="998" y="274" fill="#9A9A9A" font-size="13.5">Se actualiza sola, sin instalador.</text>
+    <text x="998" y="294" fill="#9A9A9A" font-size="13.5">Si algo falla, vuelve atrás.</text>
   </g>
   <g font-family="'JetBrains Mono',Menlo,Consolas,monospace" font-size="11" fill="#5E9644" letter-spacing="1">
     <text x="68" y="322">01</text><text x="378" y="322">02</text><text x="688" y="322">03</text><text x="998" y="322">04</text>
